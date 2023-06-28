@@ -3,16 +3,55 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'bar';
+    src: url('./fonts/BacasimeAntique-Regular.ttf');
+  }
+
+body{
+    font-family: bar, 'Times New Roman', Times, serif;
+}
+
 header{
     padding: 10px 100px; 
     overflow: hidden;
     position: relative;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
 }
 
 .logo{
     width: 90px;
     border-radius: 50%;
     float: left;
+}
+
+.options{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.options ul{
+    list-style: none;
+    font-size: 27px;
+}
+
+.options li{  
+    display: inline;
+    margin: 0 20px;
+    padding: 5px;
+    color: black
+}
+
+.options li:hover{
+    border-radius: 10px;
+    color: white;
+    background-color: #5c3d34;
 }
 
 .social-media{
@@ -22,14 +61,34 @@ header{
     transform: translateY(-50%);
 }
 
+
 .social-icons{
     width: 30px;
     border-radius: 50%;
     margin-left: 10px;
 }
 
+
 .banner{
+    position: relative;
     background-image: url('./images/banner.jpg');
     background-size: cover ;
     height: 545px;
+    text-align: center;
+}
+
+.banner a{
+    font-size: 60px;
+    color: white;;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.banner a:hover{
+    background-color: #5c3d34bb;
 }
