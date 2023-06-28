@@ -73,7 +73,7 @@ a{
     position: relative;
     background-image: url('./images/banner.jpg');
     background-size: cover ;
-    height: 545px;
+    height: 560px;
     text-align: center;
 }
 
@@ -91,4 +91,28 @@ a{
 
 .banner a:hover{
     background-color: #5c3d34bb;
+}
+
+#menu{
+    padding: 50px;
+    text-align: center;
+}
+
+.picture{
+    width: 200px;
+    border-radius: 50%;
+    margin: 0px 25px;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu p{
+    font-size: 30px;
+    margin-top: 5px;
 }
