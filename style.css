@@ -12,6 +12,8 @@ body{
     font-family: bar, 'Times New Roman', Times, serif;
 }
 
+/* Header section  */
+
 header{
     padding: 10px 100px; 
     overflow: hidden;
@@ -68,10 +70,11 @@ a{
     margin-left: 10px;
 }
 
+/* Banner section */
 
 .banner{
     position: relative;
-    background-image: url('./images/banner.jpg');
+    background-image: url('./images/banner-section/banner.jpg');
     background-size: cover ;
     height: 560px;
     text-align: center;
@@ -93,26 +96,110 @@ a{
     background-color: #5c3d34bb;
 }
 
-#menu{
+/* Menu section  */
+
+.menu{
     padding: 50px;
     text-align: center;
 }
 
-.picture{
+.menu img{
     width: 200px;
     border-radius: 50%;
     margin: 0px 25px;
 }
 
-#menu ul{
+.menu ul{
     list-style: none;
 }
 
-#menu li{
+.menu li{
     display: inline-block;
 }
 
-#menu p{
+.menu p{
     font-size: 30px;
     margin-top: 5px;
+}
+
+/* More orders section  */
+
+#more-orders{
+    padding: 0px 100px;
+    text-align: center;
+    background: linear-gradient(to right,#8c817d, #b2a4a0, #8c817d);
+    color: white;
+}
+
+#more-orders h2{
+    font-size: 40px;
+    font-weight: normal;
+    padding: 20px;    
+}
+
+#more-orders img{
+    width: 300px;
+    height: 400px;
+    margin: 0px 25px;
+    border-radius: 20px;
+}
+
+#more-orders ul{
+    list-style: none;
+}
+
+#more-orders li{
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+#more-orders p{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+/* About us section  */
+
+#about-us{
+    position: relative;
+    padding: 50px;
+    height: 400px;
+}
+
+
+.brown-rectangle{
+    position: absolute;
+    left: 200px;
+    height: 80%;
+    width: 25%;
+    background-color:#b2a4a0;
+    border-radius: 20px;
+}
+
+.brown-rectangle img{
+    height: 405px;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    right: -40px;
+    border-radius: 20px;
+    box-shadow: -4px 4px 15px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text{
+    position: absolute;
+    right: 200px;
+    width: 30%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.text h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 20px;    
+}
+
+.text p{
+    margin-bottom: 20px;
 }
