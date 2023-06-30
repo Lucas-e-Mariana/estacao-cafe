@@ -203,3 +203,60 @@ a{
 .text p{
     margin-bottom: 20px;
 }
+
+/* footer section  */
+
+footer{
+    height: 150px;
+    background-color: #5c3d34;
+    margin-top: 10px;
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contact{
+    color: white;
+    float: left;
+    text-align: left;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.location{
+    color: white;
+    float: right;
+    text-align: left;
+}
+
+.location h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.location p{
+    font-size: 20px;
+}
+
+.back{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: #8c817d;
+    border-radius: 20px;
+    float: right;
+}
