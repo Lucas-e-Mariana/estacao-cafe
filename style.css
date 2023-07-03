@@ -80,6 +80,11 @@ nav li:hover{
     text-align: center;
 }
 
+.centralizing{
+    display: inline-block;
+    height: 100%;
+}
+
 .banner a{
     font-size: 60px;
     color: white;;
@@ -88,7 +93,7 @@ nav li:hover{
     border-radius: 30px;
     position: absolute;
     bottom: 50%;
-    left: 50%;
+    left: 35%;
     transform: translate(-50%, 50%);
 }
 
@@ -101,18 +106,23 @@ nav li:hover{
 .menu{
     padding: 0px 50px;
     text-align: center;
+    width: 360px;
+    height: 100%;
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    float: right;
 }
 
 .menu h2{
     padding: 20px; 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: normal;
 }  
 
 .menu img{
-    width: 200px;
+    width: 150px;
     border-radius: 50%;
-    margin: 0px 25px;
+    margin: 0px 10px;
 }
 
 .menu ul{
