@@ -31,26 +31,26 @@ a{
     float: left;
 }
 
-.options{
+nav{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.options ul{
+nav ul{
     list-style: none;
-    font-size: 27px;
+    font-size: 1.5vw;
 }
 
-.options li{  
+nav li{  
     display: inline;
-    margin: 0 20px;
+    margin: 0 10px;
     padding: 5px;
     color: black
 }
 
-.options li:hover{
+nav li:hover{
     border-radius: 10px;
     color: white;
     background-color: #5c3d34;
@@ -99,9 +99,15 @@ a{
 /* Menu section  */
 
 .menu{
-    padding: 50px;
+    padding: 0px 50px;
     text-align: center;
 }
+
+.menu h2{
+    padding: 20px; 
+    font-size: 40px;
+    font-weight: normal;
+}  
 
 .menu img{
     width: 200px;
@@ -115,6 +121,7 @@ a{
 
 .menu li{
     display: inline-block;
+    margin-bottom: 20px;
 }
 
 .menu p{
@@ -252,6 +259,8 @@ footer{
     font-size: 20px;
 }
 
+/* Botões finais */
+
 .back{
     text-decoration: none;
     color: white;
@@ -260,3 +269,15 @@ footer{
     border-radius: 20px;
     float: right;
 }
+
+.whatsapp{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: #008000;
+    border-radius: 20px;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
+
