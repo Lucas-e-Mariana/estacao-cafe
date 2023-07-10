@@ -270,9 +270,13 @@ footer{
     text-decoration: none;
     color: white;
     padding: 20px;
-    background-color: #8c817d;
+    background-color: black;
     border-radius: 20px;
     float: right;
+}
+
+.back:hover {
+background-color: #8c817d;
 }
 
 .whatsapp{
@@ -284,5 +288,9 @@ footer{
     position: fixed;
     left: 20px;
     bottom: 20px;
+}
+
+.whatsapp:hover{
+    background-color: green;
 }
 
