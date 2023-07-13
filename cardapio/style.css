@@ -80,4 +80,20 @@ section{
     text-align: left;
     background-color:#8c817d;
     border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    color: white;
+}
+
+#coffees h2{
+    margin-bottom: 20px;
+}
+
+#coffees ul{
+    list-style: none;
+}
+
+#coffees li{
+    margin: 15px 0px;
+    font-size: 20px;
 }
