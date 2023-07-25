@@ -77,61 +77,22 @@ nav li:hover{
     background-image: url('./images/banner-section/banner-1800.jpg');
     background-size: cover ;
     height: 560px;
-    text-align: center;
 }
 
 .banner a{
     font-size: 60px;
     color: white;;
-    background-color:#5c3d34bb ;
+    background-color: #8c817d;
     padding: 10px;
     border-radius: 30px;
     position: absolute;
     bottom: 50%;
-    left: 35%;
+    left: 50%;
     transform: translate(-50%, 50%);
 }
 
 .banner a:hover{
-    background-color:rgba(0,0,0,0.7) ;
-}
-
-/* Menu section  */
-
-.menu{
-    padding: 0px 50px;
-    text-align: center;
-    width: 360px;
-    height: 100%;
-    color: white;
-    background-color:#5c3d34bb;
-    float: right;
-}
-
-.menu h2{
-    padding: 20px; 
-    font-size: 30px;
-    font-weight: normal;
-}  
-
-.menu img{
-    width: 150px;
-    border-radius: 50%;
-    margin: 0px 10px;
-}
-
-.menu ul{
-    list-style: none;
-}
-
-.menu li{
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-.menu p{
-    font-size: 30px;
-    margin-top: 5px;
+    background-color: black ;
 }
 
 /* More orders section  */
@@ -139,7 +100,7 @@ nav li:hover{
 #more-orders{
     padding: 0px 100px;
     text-align: center;
-    background: linear-gradient(to right,#8c817d, #b2a4a0, #8c817d);
+    background: #8c817d;
     color: white;
 }
 
@@ -184,7 +145,7 @@ nav li:hover{
     left: 200px;
     height: 80%;
     width: 25%;
-    background-color:#b2a4a0;
+    background-color:#8c817d;
     border-radius: 20px;
 }
 
@@ -224,6 +185,7 @@ footer{
     margin-top: 10px;
     text-align: center;
     padding: 40px;
+    position: relative;
 }
 
 .container{
@@ -260,30 +222,33 @@ footer{
     margin-bottom: 10px;
 }
 
-.location p{
+.location p, address{
     font-size: 20px;
+    font-style: normal;
 }
 
 /* Botões finais */
 
 .back{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
     text-decoration: none;
     color: white;
     padding: 20px;
-    background-color: black;
+    background-color: #8c817d;
     border-radius: 20px;
-    float: right;
 }
 
 .back:hover {
-background-color: #8c817d;
+background-color: black;
 }
 
 .whatsapp{
     text-decoration: none;
     color: white;
     padding: 20px;
-    background-color: black;
+    background-color: green;
     border-radius: 20px;
     position: fixed;
     left: 20px;
@@ -291,6 +256,6 @@ background-color: #8c817d;
 }
 
 .whatsapp:hover{
-    background-color: green;
+    background-color: black;
 }
 
