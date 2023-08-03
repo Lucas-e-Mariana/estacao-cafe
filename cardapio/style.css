@@ -31,30 +31,15 @@ a{
     float: left;
 }
 
-nav{
+header h1{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: normal;
 }
 
-nav ul{
-    list-style: none;
-    font-size: 1.5vw;
-}
-
-nav li{  
-    display: inline;
-    margin: 0 10px;
-    padding: 5px;
-    color: black
-}
-
-nav li:hover{
-    border-radius: 10px;
-    color: white;
-    background-color: #5c3d34;
-}
 
 .social-media{
     position: absolute;
@@ -68,32 +53,4 @@ nav li:hover{
     width: 30px;
     border-radius: 50%;
     margin-left: 10px;
-}
-
-.container{
-    width: 65%;
-    margin: auto;
-    text-align: center;
-}
-
-section{
-    text-align: left;
-    background-color:#8c817d;
-    border-radius: 20px;
-    padding: 20px;
-    margin-top: 40px;
-    color: white;
-}
-
-#coffees h2{
-    margin-bottom: 20px;
-}
-
-#coffees ul{
-    list-style: none;
-}
-
-#coffees li{
-    margin: 15px 0px;
-    font-size: 20px;
 }
