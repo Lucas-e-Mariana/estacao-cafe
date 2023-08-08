@@ -14,6 +14,16 @@ body{
 
 /* Header section  */
 
+.back{
+    background-color: #5c3d34;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    transform: translate(-50%, -50%);
+
+}
+
 header{
     padding: 10px 100px; 
     overflow: hidden;
