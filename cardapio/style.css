@@ -57,14 +57,14 @@ header h1{
 
 .container{ 
     margin: auto;
-    width: 98%;
+
     text-align: center;
 }
 
 /* menu sections */
 
 .order{
-    background-image: url('../images/cadapio/order.jpeg');
+    background-image: url('../images/cadapio/order.png');
     background-size: cover;
     height: 605px;
     width: 33%;
