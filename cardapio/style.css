@@ -57,27 +57,55 @@ header h1{
 
 .container{ 
     margin: auto;
-    width: 95%;
+    width: 98%;
     text-align: center;
 }
 
+/* menu sections */
+
 .order{
-    background-image: url('../images/cardapio/order2.jpeg');
+    background-image: url('../images/cadapio/order.jpeg');
     background-size: cover;
     height: 605px;
     width: 33%;
     background-repeat: no-repeat;
-    display: inline-block; 
+    float: left;
 }
 
 .menu1, .menu2{
     height: 605px;
     width: 33%;
-    background-color: black;
+    background-color: #fdf5e6;
     display: inline-block;
     border-radius: 20px;
     color: white;
     text-align: center; 
+    padding: 20px;
+    box-sizing: border-box;
+    color: #5c3d34;
 }
+
+.menu2{
+    float: right;
+}
+
+.menu1 h2, .menu2 h2{
+    font-size: 26px;
+}
+
+.menu1 ul, .menu2 ul{
+    text-align: left;
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu1 li{
+    margin: 20px 0;
+}
+
+.menu1 p, .menu2 p{
+    font-size: 12px;
+}
+
 
 
