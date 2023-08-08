@@ -62,7 +62,8 @@ header h1{
 }
 
 .order{
-    background-image: url('../images/cardapio/order2.jpg');
+    background-image: url('../images/cardapio/order2.jpeg');
+    background-size: cover;
     height: 605px;
     width: 33%;
     background-repeat: no-repeat;
