@@ -49,6 +49,7 @@ header h1{
     transform: translate(-50%, -50%);
     font-size: 40px;
     font-weight: normal;
+    color: #5c3d34;
 }
 
 
@@ -66,11 +67,6 @@ header h1{
     margin-left: 10px;
 }
 
-.container{ 
-    margin: auto;
-
-    text-align: center;
-}
 
 /* menu sections */
 
@@ -81,6 +77,24 @@ header h1{
     width: 33%;
     background-repeat: no-repeat;
     float: left;
+    position: relative;
+}
+
+.order a{
+    font-size: 50px;
+    color: white;
+    background-color: #25d366;
+    padding: 10px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
+}
+
+.order a:hover{
+    background-color: black;
 }
 
 .menu1, .menu2{
@@ -110,7 +124,7 @@ header h1{
     font-size: 20px;
 }
 
-.menu1 li{
+.menu1 li, .menu2 li{
     margin: 20px 0;
 }
 
@@ -118,5 +132,11 @@ header h1{
     font-size: 12px;
 }
 
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #5c3d34, transparent);
+    margin: 25px 0;
+}
 
 
