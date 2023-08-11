@@ -14,11 +14,16 @@ body{
 
 /* Header section  */
 
+.hcontainer{
+    background-image: url('./images/banner-section/banner-1800.jpg');
+    background-size: cover ;
+}
+
 header{
     padding: 10px 100px; 
     overflow: hidden;
     position: relative;
-    text-align: center;
+    text-align: center; 
 }
 
 a{
@@ -74,21 +79,20 @@ nav li:hover{
 
 .banner{
     position: relative;
-    background-image: url('./images/banner-section/banner-1800.jpg');
-    background-size: cover ;
     height: 560px;
 }
 
 .banner a{
     font-size: 60px;
     color: white;;
-    background-color: #8c817d;
+    background-color: #b5a79d;
     padding: 10px;
     border-radius: 30px;
     position: absolute;
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, 50%);
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
 }
 
 .banner a:hover{
@@ -100,7 +104,7 @@ nav li:hover{
 #more-orders{
     padding: 0px 100px;
     text-align: center;
-    background: #8c817d;
+    background: #b5a79d;
     color: white;
 }
 
@@ -145,7 +149,7 @@ nav li:hover{
     left: 200px;
     height: 80%;
     width: 25%;
-    background-color:#8c817d;
+    background-color: #b5a79d;
     border-radius: 20px;
 }
 
@@ -236,7 +240,7 @@ footer{
     text-decoration: none;
     color: white;
     padding: 20px;
-    background-color: #8c817d;
+    background-color: #b5a79d;
     border-radius: 20px;
 }
 
