@@ -50,6 +50,10 @@ header h1{
     font-size: 40px;
     font-weight: normal;
     color: #5c3d34;
+    background-color: #fdf5e6;
+    padding: 10px;
+    border-radius: 15px;
+    border:#5c3d34 solid 1px
 }
 
 
