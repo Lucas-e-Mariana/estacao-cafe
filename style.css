@@ -58,7 +58,7 @@ nav li{
 nav li:hover{
     border-radius: 10px;
     color: white;
-    background-color: #5c3d34;
+    background-color: #b5a79d;
 }
 
 .social-media{
@@ -119,6 +119,7 @@ nav li:hover{
     height: 400px;
     margin: 0px 25px;
     border-radius: 20px;
+    box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
 }
 
 #more-orders ul{
