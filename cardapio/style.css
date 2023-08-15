@@ -15,7 +15,7 @@ body{
 /* Header section  */
 
 .back{
-    background-color: #5c3d34;
+    background-color: #3C2F26;
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -49,11 +49,11 @@ header h1{
     transform: translate(-50%, -50%);
     font-size: 40px;
     font-weight: normal;
-    color: #5c3d34;
-    background-color: #fdf5e6;
+    color: #3C2F26;
+    background-color: #FFE0B3;
     padding: 10px;
     border-radius: 15px;
-    border:#5c3d34 solid 1px
+    border: #3C2F26 solid 1px
 }
 
 
@@ -87,7 +87,7 @@ header h1{
 .order a{
     font-size: 50px;
     color: white;
-    background-color: #25d366;
+    background-color: #D99255;
     padding: 10px;
     border-radius: 20px;
     position: absolute;
@@ -104,14 +104,14 @@ header h1{
 .menu1, .menu2{
     height: 605px;
     width: 33%;
-    background-color: #fdf5e6;
+    background-color: #FFE0B3;
     display: inline-block;
     border-radius: 20px;
     color: white;
     text-align: center; 
     padding: 20px;
     box-sizing: border-box;
-    color: #5c3d34;
+    color: #3C2F26;
 }
 
 .menu2{
@@ -139,7 +139,7 @@ header h1{
 hr {
     border: 0;
     height: 2px;
-    background-image: linear-gradient(to right, transparent, #5c3d34, transparent);
+    background-image: linear-gradient(to right, transparent, #3C2F26, transparent);
     margin: 25px 0;
 }
 
