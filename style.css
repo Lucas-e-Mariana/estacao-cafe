@@ -16,7 +16,7 @@ body{
 
 .hcontainer{
     background-image: url('./images/banner-section/banner-1800.jpg');
-    background-size: cover ;
+    background-size: cover;
 }
 
 header{
@@ -71,6 +71,12 @@ nav li:hover{
 
 .social-icons{
     width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.social-icons{
+    width: 30opx;
     border-radius: 50%;
     margin-left: 10px;
 }
