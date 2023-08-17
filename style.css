@@ -268,13 +268,19 @@ background-color: black;
     bottom: 20px;
 }
 
-#whatsapp-icon{
-    display: none;
-}
-
 .whatsapp:hover{
     background-color: black;
 }
+
+.whatsapp-icon{
+    display: none;
+}
+
+.back-icon{
+    display: none;
+}
+
+
 
 @media (max-width: 905px) {
     nav{
@@ -296,15 +302,34 @@ background-color: black;
         width: 100%;
     }
 
-    .whatsapp{
-        background-color: transparent;
-    }
-
-    #whatsapp-text{
+    .whatsapp, .back{
         display: none;
     }
 
-    #whatsapp-icon{
-        display:inline-block;
+    .whatsapp-icon{
+        text-decoration: none;
+        /* background-color: #25d366; */
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        display: block;
+    }
+
+    .whatsapp-icon img{
+        width: 50px;
+    }
+
+    .back-icon{
+        display: block;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+        text-decoration: none;
+        
+    }
+
+    .back-icon img{
+        width: 50px;
+        border-radius: 50%;
     }
 }
