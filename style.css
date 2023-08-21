@@ -156,15 +156,16 @@ nav li:hover{
 .brown-rectangle{
     position: absolute;
     left: 12%;
-    height: 80%;
-    width: 25%;
+    height: 400px;
+    width: 340px;
     background-color: #C7A778;
     border-radius: 20px;
+    margin-right: 10px;
 }
 
 .brown-rectangle img{
     height: 405px;
-    width: 300px;
+    width: 310px;
     position: absolute;
     top: 20px;
     right: -40px;
@@ -202,7 +203,7 @@ footer{
 }
 
 .container{
-    width: 600px;
+    max-width: 600px;
     margin: auto;
     overflow: hidden;
 }
@@ -222,6 +223,10 @@ footer{
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+.contact address {
+    display:none;
 }
 
 .location{
@@ -280,17 +285,12 @@ background-color: black;
     display: none;
 }
 
-
-
-@media (max-width: 905px) {
-    nav{
-        display: none;
-    }
-
+@media (max-width: 1077px){
+    
     #about-us{
         height: auto;
     }
-
+    
     .brown-rectangle{
         display: none;
     }
@@ -300,6 +300,17 @@ background-color: black;
         position:static;
         right: 50%;
         width: 100%;
+    }
+    
+}
+
+@media (max-width: 905px) {
+    nav{
+        display: none;
+    }
+
+    #about-us{
+        height: auto;
     }
 
     .whatsapp, .back{
@@ -332,4 +343,25 @@ background-color: black;
         width: 50px;
         border-radius: 50%;
     }
+}
+
+@media (max-width: 685px){
+    .location {
+        display: none;
+    }
+    
+    .footer{
+        height: auto;
+    }
+
+    .contact{
+        margin:auto;
+        float: none;
+        text-align:center;
+    }
+
+    .contact address {
+        display: block;
+    }
+
 }
