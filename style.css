@@ -110,7 +110,7 @@ nav li:hover{
 /* More orders section  */
 
 #more-orders{
-    padding: 0px 100px;
+    padding: 0px 10%;
     text-align: center;
     background: #C7A778;
     color: white;
@@ -125,7 +125,8 @@ nav li:hover{
 #more-orders img{
     width: 300px;
     height: 400px;
-    margin: 0px 25px;
+    margin-right: 15px;
+    margin-left: 15px;
     border-radius: 20px;
     box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
 }
@@ -309,17 +310,30 @@ background-color: black;
         display: none;
     }
 
+    #more-orders{
+        padding: 0px 2%;
+    }
+
+    #more-orders img{
+        width: 200px;
+        height: 268px;
+        margin: 0 10px;
+    }
+
+    #more-orders p{
+        font-size: 18px;
+    }
+
     #about-us{
         height: auto;
     }
-
+    
     .whatsapp, .back{
         display: none;
     }
 
     .whatsapp-icon{
         text-decoration: none;
-        /* background-color: #25d366; */
         position: fixed;
         left: 20px;
         bottom: 20px;
@@ -346,18 +360,32 @@ background-color: black;
 }
 
 @media (max-width: 685px){
+    #more-orders img{
+        width: 150px;
+        height: 200px;
+    }
+
+    #more-orders p{
+        font-size: 16px;
+    }
+    
     .location {
         display: none;
     }
     
     .footer{
         height: auto;
+        padding: 10px;
     }
 
     .contact{
         margin:auto;
         float: none;
         text-align:center;
+    }
+
+    .contact a, .contact address{
+        font-size: 0.9em;
     }
 
     .contact address {
