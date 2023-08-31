@@ -15,7 +15,7 @@ body{
 /* Header section  */
 
 .hcontainer{
-    background-image: url('./images/banner-section/banner-1800.jpg');
+    background-image: url('./images/banner-section/banner-G.jpg');
     background-size: cover;
 }
 
@@ -287,6 +287,10 @@ background-color: black;
 }
 
 @media (max-width: 1077px){
+
+    .hcontainer{
+        background-image: url('./images/banner-section/banner-M.jpg');
+    }
     
     #about-us{
         height: auto;
@@ -360,6 +364,10 @@ background-color: black;
 }
 
 @media (max-width: 685px){
+    .hcontainer{
+        background-image: url('./images/banner-section/banner-P.jpg');
+    }
+
     #more-orders img{
         width: 150px;
         height: 200px;
