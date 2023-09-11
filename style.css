@@ -85,21 +85,19 @@ nav li:hover{
 /* Banner section */
 
 .banner{
-    /* position: relative; */
     height: 560px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner a{
     font-size: 60px;
     color: white;;
-    background-color: #C7A778;
+    background-color: #D99255;
     padding: 10px;
     border-radius: 30px;
-    position: absolute;
-    bottom: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
     box-shadow: 1px 5px 10px rgba(0,0,0,0.5);
 }
 
@@ -255,7 +253,7 @@ footer{
     text-decoration: none;
     color: white;
     padding: 20px;
-    background-color: #C7A778;
+    background-color: #D99255;
     border-radius: 20px;
 }
 
